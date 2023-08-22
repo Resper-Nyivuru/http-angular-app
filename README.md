@@ -1,26 +1,32 @@
-# FirstApp
+# HTTP ANGULAR APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
-## Development server
+## 1. To run an Angular project on your local machine, follow these steps:
+Prerequisites:
+Make sure you have Node.js and npm (Node Package Manager) installed on your machine. You can download them from the official Node.js website: https://nodejs.org/
 
+## 2. Install Angular CLI:
+Open your command prompt or terminal and run the following command to install the Angular CLI globally on your machine:
+    npm install -g @angular/cli
+
+## 3. Clone the repository on your local machine
+## 4. Navigate to Project Directory:
+Change your working directory to your project's root folder:
+    cd my-angular-project
+## 5. Install Project Dependencies:
+Run the following command to install the project dependencies listed in the package.json file:
+    npm install
+## 6. Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Optional step: Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Optional step: Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
