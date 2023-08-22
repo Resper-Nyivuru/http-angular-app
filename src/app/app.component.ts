@@ -15,7 +15,7 @@ export class AppComponent implements OnInit, OnDestroy {
   error =  null;
   private errorSubscription: Subscription;
 
-  constructor(private http: HttpClient, private postService: PostsService) {}
+  constructor(private postService: PostsService) {}
 
   ngOnInit() {
 
