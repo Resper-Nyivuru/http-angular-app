@@ -5,3 +5,31 @@
 .row {
   margin: 20px 0;
 }
+.footer{
+  width: 100%;
+  background-color: #198754;
+  color: white;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  text-align: center;
+  height: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.clear { 
+  clear: both; 
+  height: 65px; 
+}
+.header{
+  width: 100%;
+  background-color: #198754;
+  color: white;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  text-align: left;
+  height: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}

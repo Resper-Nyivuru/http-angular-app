@@ -1,3 +1,8 @@
+<div class="header">
+  <span>
+      <strong>Http Request Book App</strong>
+  </span>
+</div>
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-md-6 col-md-offset-3">
@@ -14,7 +19,18 @@
           />
         </div>
         <div class="form-group">
-          <label for="content">Content</label>
+          <label for="author">Author</label>
+          <input
+            type="text"
+            class="form-control"
+            id="author"
+            required
+            ngModel
+            name="author"
+          />
+        </div>
+        <div class="form-group">
+          <label for="content">Summary</label>
           <textarea
             class="form-control"
             id="content"
@@ -66,4 +82,10 @@
       </div>
     </div>
   </div>
+</div>
+<div class="clear"></div>
+<div class="footer">
+    <span>
+        <strong> @Resper-2023</strong>
+    </span>
 </div>

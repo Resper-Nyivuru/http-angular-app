@@ -12,8 +12,8 @@ export class PostsService{
     
     constructor(private http: HttpClient){}
 
-    createAndStoreRequests(title: string, content: string){
-        const postData: Post = {title: title, content: content}
+    createAndStoreRequests(title: string, author: string, content: string){
+        const postData: Post = {title: title, author: author, content: content}
         // Send Http request //folder named posts.json
         //this.http.post('https://ng-complete-guide-8d7b8-default-rtdb.firebaseio.com/posts.json',
         this.http.post<{name: string}>('https://ng-complete-guide-8d7b8-default-rtdb.firebaseio.com/posts.json',

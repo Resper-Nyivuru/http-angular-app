@@ -37,7 +37,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   onCreatePost(postData: Post) {
-    this.postService.createAndStoreRequests(postData.title, postData.content);
+    this.postService.createAndStoreRequests(postData.title, postData.author, postData.content);
   }
   onFetchPosts() {
     // Send Http request //call the fetch posts private property here
